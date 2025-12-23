@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Agent</string>
+    <string name="accessibility_service_description">Enables the AI Agent to interact with apps on your behalf. The agent will always ask for your consent before performing any action.</string>
+    
+    <!-- UI Strings -->
+    <string name="hint_ask_agent">Ask me anything…</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_approve">Approve</string>
+    <string name="btn_reject">Reject</string>
+    <string name="btn_modify">Modify</string>
+    
+    <!-- Consent Dialog -->
+    <string name="consent_title">Action Confirmation</string>
+    <string name="consent_message">The agent wants to perform the following actions:</string>
+    <string name="consent_warning">⚠️ This action cannot be undone</string>
+    
+    <!-- Status Messages -->
+    <string name="status_thinking">Thinking…</string>
+    <string name="status_planning">Planning actions…</string>
+    <string name="status_waiting_consent">Waiting for your approval…</string>
+    <string name="status_executing">Executing…</string>
+    <string name="status_completed">Completed!</string>
+    <string name="status_failed">Failed: %s</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_not_enabled">Accessibility service not enabled. Tap to enable.</string>
+</resources>
+

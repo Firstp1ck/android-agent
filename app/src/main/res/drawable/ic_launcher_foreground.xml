@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Adaptive icon foreground with robot icon centered -->
+    <group android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="22"
+        android:translateY="22">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M32,8A4,4 0 0,1 36,12C36,13.48 35.2,14.78 34,15.46V18H36A14,14 0 0,1 50,32H52A2,2 0 0,1 54,34V40A2,2 0 0,1 52,42H50V44A4,4 0 0,1 46,48H18A4,4 0 0,1 14,44V42H12A2,2 0 0,1 10,40V34A2,2 0 0,1 12,32H14A14,14 0 0,1 28,18H30V15.46C28.8,14.78 28,13.48 28,12A4,4 0 0,1 32,8M23,30A5,5 0 0,0 18,35A5,5 0 0,0 23,40A5,5 0 0,0 28,35A5,5 0 0,0 23,30M41,30A5,5 0 0,0 36,35A5,5 0 0,0 41,40A5,5 0 0,0 46,35A5,5 0 0,0 41,30Z"/>
+    </group>
+</vector>
+
