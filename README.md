@@ -42,7 +42,7 @@ A privacy-first, self-learning Android AI agent that operates primarily on-devic
 
 - Android Studio Hedgehog or later
 - JDK 17+
-- Android SDK 34
+- Android SDK 36
 - An Android device or emulator (min SDK 28)
 
 ### Building
@@ -88,6 +88,7 @@ cd android-agent
 ```
 app/src/main/kotlin/com/agent/
 ├── AgentApplication.kt       # App initialization
+├── action/                   # Action implementations (placeholder)
 ├── core/
 │   ├── AgentConfig.kt        # Configuration
 │   ├── AgentOrchestrator.kt  # Main coordinator
@@ -98,6 +99,7 @@ app/src/main/kotlin/com/agent/
 │   └── MemoryManager.kt      # MobiMem implementation
 ├── llm/
 │   └── LlmEngine.kt          # LLM inference
+├── rag/                      # RAG implementation (placeholder)
 ├── service/
 │   ├── AgentAccessibilityService.kt  # UI automation
 │   ├── AgentService.kt       # Background service
@@ -107,6 +109,8 @@ app/src/main/kotlin/com/agent/
     ├── AgentScreen.kt        # Compose UI
     ├── AgentViewModel.kt     # ViewModel
     └── theme/                # Material 3 theme
+        ├── Theme.kt          # Color scheme and theme
+        └── Typography.kt     # Text styles
 ```
 
 ## 🧠 Memory System (MobiMem)
